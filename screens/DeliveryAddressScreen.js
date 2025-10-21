@@ -42,7 +42,7 @@ export default function DeliveryAddressScreen({ navigation }) {
 
 const styles = StyleSheet.create({
   container: { flex: 1, padding: 20, backgroundColor: "#fff" },
-  title: { fontSize: 22, fontWeight: "bold", color: "#FF7A00", marginBottom: 20 },
+  title: { fontSize: 22, fontWeight: "bold", color: "#FCEA5C", marginBottom: 20 },
   input: {
     borderWidth: 1,
     borderColor: "#ddd",
@@ -51,7 +51,7 @@ const styles = StyleSheet.create({
     marginBottom: 15,
   },
   button: {
-    backgroundColor: "#FF7A00",
+    backgroundColor: "#FCEA5C",
     padding: 15,
     borderRadius: 10,
     alignItems: "center",
