@@ -29,7 +29,7 @@ export default function OrderSummaryScreen({ route, navigation }) {
   return (
     <View style={styles.container}>
       <TouchableOpacity onPress={() => navigation.goBack()}>
-        <Ionicons name="arrow-back" size={24} color="#FF7A00" />
+        <Ionicons name="arrow-back" size={24} color="black" />
       </TouchableOpacity>
 
       <Text style={styles.title}>Order Summary</Text>
@@ -43,7 +43,7 @@ export default function OrderSummaryScreen({ route, navigation }) {
             <View style={styles.itemRight}>
               <Text style={styles.price}>₹{item.price}</Text>
               <TouchableOpacity onPress={() => removeItem(item.id)}>
-                <Ionicons name="trash" size={20} color="red" />
+                <Ionicons name="trash" size={20} color="#c96d16ff" />
               </TouchableOpacity>
             </View>
           </View>
@@ -75,7 +75,7 @@ export default function OrderSummaryScreen({ route, navigation }) {
 
 const styles = StyleSheet.create({
   container: { flex: 1, padding: 20, backgroundColor: "#fff" },
-  title: { fontSize: 22, fontWeight: "bold", color: "#FF7A00", marginBottom: 15 },
+  title: { fontSize: 22, fontWeight: "bold", color: "#FCEA5C", marginBottom: 15 },
   item: {
     flexDirection: "row",
     justifyContent: "space-between",
@@ -86,26 +86,26 @@ const styles = StyleSheet.create({
   },
   itemText: { fontSize: 16 },
   itemRight: { flexDirection: "row", alignItems: "center", gap: 10 },
-  price: { color: "#FF7A00", fontWeight: "bold" },
+  price: { color: "#FCEA5C", fontWeight: "bold" },
   addButton: {
-    borderColor: "#FF7A00",
+    borderColor: "#FCEA5C",
     borderWidth: 1,
     borderRadius: 10,
     alignItems: "center",
     padding: 10,
     marginBottom: 15,
   },
-  addText: { color: "#FF7A00", fontWeight: "bold" },
+  addText: { color: "#FCEA5C", fontWeight: "bold" },
   summaryBox: {
     padding: 10,
     backgroundColor: "#f0f0f0",
     borderRadius: 10,
     marginBottom: 10,
   },
-  total: { fontWeight: "bold", color: "#FF7A00" },
+  total: { fontWeight: "bold", color: "#FCEA5C" },
   addressTitle: { marginTop: 10, fontWeight: "bold" },
   button: {
-    backgroundColor: "#FF7A00",
+    backgroundColor: "#FCEA5C",
     padding: 15,
     borderRadius: 10,
     alignItems: "center",
