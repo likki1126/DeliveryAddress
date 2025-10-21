@@ -18,7 +18,7 @@ export default function PaymentScreen({ route, navigation }) {
   return (
     <View style={styles.container}>
       <TouchableOpacity onPress={() => navigation.goBack()}>
-        <Ionicons name="arrow-back" size={24} color="#FF7A00" />
+        <Ionicons name="arrow-back" size={24} color="black" />
       </TouchableOpacity>
 
       <Text style={styles.title}>Payment</Text>
@@ -43,7 +43,7 @@ export default function PaymentScreen({ route, navigation }) {
 
 const styles = StyleSheet.create({
   container: { flex: 1, padding: 20, backgroundColor: "#fff" },
-  title: { fontSize: 22, fontWeight: "bold", color: "#FF7A00", marginBottom: 20 },
+  title: { fontSize: 22, fontWeight: "bold", color: "#FCEA5C", marginBottom: 20 },
   option: {
     padding: 15,
     borderRadius: 10,
@@ -51,12 +51,12 @@ const styles = StyleSheet.create({
     borderColor: "#ddd",
     marginBottom: 15,
   },
-  selected: { borderColor: "#FF7A00", backgroundColor: "#FFF3E0" },
+  selected: { borderColor: "#FCEA5C", backgroundColor: "#FFF3E0" },
   optionText: { fontSize: 16 },
   summary: { marginTop: 20 },
-  total: { fontSize: 18, fontWeight: "bold", color: "#FF7A00" },
+  total: { fontSize: 18, fontWeight: "bold", color: "#FCEA5C" },
   button: {
-    backgroundColor: "#FF7A00",
+    backgroundColor: "#FCEA5C",
     padding: 15,
     borderRadius: 10,
     alignItems: "center",
